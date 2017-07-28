@@ -8,20 +8,40 @@
 
 /* Begin PBXBuildFile section */
 		072F1B501F2A546A001D6FA2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072F1B4F1F2A546A001D6FA2 /* AppDelegate.swift */; };
-		072F1B521F2A546A001D6FA2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072F1B511F2A546A001D6FA2 /* ViewController.swift */; };
+		072F1B521F2A546A001D6FA2 /* CameraVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072F1B511F2A546A001D6FA2 /* CameraVC.swift */; };
 		072F1B551F2A546A001D6FA2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 072F1B531F2A546A001D6FA2 /* Main.storyboard */; };
 		072F1B571F2A546A001D6FA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 072F1B561F2A546A001D6FA2 /* Assets.xcassets */; };
 		072F1B5A1F2A546A001D6FA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 072F1B581F2A546A001D6FA2 /* LaunchScreen.storyboard */; };
+		072F1B671F2A585F001D6FA2 /* AAPLCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 072F1B641F2A585F001D6FA2 /* AAPLCameraViewController.m */; };
+		072F1B681F2A585F001D6FA2 /* AAPLPreviewView.m in Sources */ = {isa = PBXBuildFile; fileRef = 072F1B661F2A585F001D6FA2 /* AAPLPreviewView.m */; };
+		07FEE6E41F2AA72500202261 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 07FEE6E31F2AA72500202261 /* GoogleService-Info.plist */; };
+		07FEE6E61F2AB73D00202261 /* RoundTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FEE6E51F2AB73D00202261 /* RoundTextField.swift */; };
+		07FEE6E81F2ABF8800202261 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FEE6E71F2ABF8800202261 /* RoundedButton.swift */; };
+		07FEE6EA1F2AC31E00202261 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FEE6E91F2AC31E00202261 /* LoginVC.swift */; };
+		09443E82847E77D24D18545D /* Pods_DevChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEEA1605C0059A67B45D7D3A /* Pods_DevChat.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		072F1B4C1F2A546A001D6FA2 /* DevChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DevChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		072F1B4F1F2A546A001D6FA2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		072F1B511F2A546A001D6FA2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		072F1B511F2A546A001D6FA2 /* CameraVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraVC.swift; sourceTree = "<group>"; };
 		072F1B541F2A546A001D6FA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		072F1B561F2A546A001D6FA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		072F1B591F2A546A001D6FA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		072F1B5B1F2A546A001D6FA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		072F1B611F2A585F001D6FA2 /* DevChat-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DevChat-Bridging-Header.h"; sourceTree = "<group>"; };
+		072F1B631F2A585F001D6FA2 /* AAPLCameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAPLCameraViewController.h; sourceTree = "<group>"; };
+		072F1B641F2A585F001D6FA2 /* AAPLCameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAPLCameraViewController.m; sourceTree = "<group>"; };
+		072F1B651F2A585F001D6FA2 /* AAPLPreviewView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAPLPreviewView.h; sourceTree = "<group>"; };
+		072F1B661F2A585F001D6FA2 /* AAPLPreviewView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAPLPreviewView.m; sourceTree = "<group>"; };
+		072F1B6B1F2A5A32001D6FA2 /* AAPLCameraVCDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAPLCameraVCDelegate.h; sourceTree = "<group>"; };
+		07FEE6E31F2AA72500202261 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		07FEE6E51F2AB73D00202261 /* RoundTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundTextField.swift; sourceTree = "<group>"; };
+		07FEE6E71F2ABF8800202261 /* RoundedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
+		07FEE6E91F2AC31E00202261 /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		6AFDDBE86F3366C2DD29BBFE /* Pods-DevChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DevChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DevChat/Pods-DevChat.debug.xcconfig"; sourceTree = "<group>"; };
+		A90AF2DFC1BBE49BA398DCFD /* Pods-DevChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DevChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-DevChat/Pods-DevChat.release.xcconfig"; sourceTree = "<group>"; };
+		DEEA1605C0059A67B45D7D3A /* Pods_DevChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DevChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09443E82847E77D24D18545D /* Pods_DevChat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +61,8 @@
 			children = (
 				072F1B4E1F2A546A001D6FA2 /* DevChat */,
 				072F1B4D1F2A546A001D6FA2 /* Products */,
+				1BFEE915B997400B4102F41A /* Pods */,
+				84FFF9729A845FC3D74B1DE7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +77,65 @@
 		072F1B4E1F2A546A001D6FA2 /* DevChat */ = {
 			isa = PBXGroup;
 			children = (
+				07FEE6E21F2A9F6100202261 /* Protocols */,
+				072F1B6A1F2A5875001D6FA2 /* Controller */,
+				072F1B691F2A586C001D6FA2 /* View */,
 				072F1B4F1F2A546A001D6FA2 /* AppDelegate.swift */,
-				072F1B511F2A546A001D6FA2 /* ViewController.swift */,
 				072F1B531F2A546A001D6FA2 /* Main.storyboard */,
 				072F1B561F2A546A001D6FA2 /* Assets.xcassets */,
 				072F1B581F2A546A001D6FA2 /* LaunchScreen.storyboard */,
 				072F1B5B1F2A546A001D6FA2 /* Info.plist */,
+				07FEE6E31F2AA72500202261 /* GoogleService-Info.plist */,
+				072F1B611F2A585F001D6FA2 /* DevChat-Bridging-Header.h */,
 			);
 			path = DevChat;
+			sourceTree = "<group>";
+		};
+		072F1B691F2A586C001D6FA2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				072F1B651F2A585F001D6FA2 /* AAPLPreviewView.h */,
+				072F1B661F2A585F001D6FA2 /* AAPLPreviewView.m */,
+				07FEE6E51F2AB73D00202261 /* RoundTextField.swift */,
+				07FEE6E71F2ABF8800202261 /* RoundedButton.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		072F1B6A1F2A5875001D6FA2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				072F1B511F2A546A001D6FA2 /* CameraVC.swift */,
+				072F1B631F2A585F001D6FA2 /* AAPLCameraViewController.h */,
+				072F1B641F2A585F001D6FA2 /* AAPLCameraViewController.m */,
+				07FEE6E91F2AC31E00202261 /* LoginVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		07FEE6E21F2A9F6100202261 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				072F1B6B1F2A5A32001D6FA2 /* AAPLCameraVCDelegate.h */,
+			);
+			name = Protocols;
+			sourceTree = "<group>";
+		};
+		1BFEE915B997400B4102F41A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6AFDDBE86F3366C2DD29BBFE /* Pods-DevChat.debug.xcconfig */,
+				A90AF2DFC1BBE49BA398DCFD /* Pods-DevChat.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		84FFF9729A845FC3D74B1DE7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DEEA1605C0059A67B45D7D3A /* Pods_DevChat.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +145,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 072F1B5E1F2A546A001D6FA2 /* Build configuration list for PBXNativeTarget "DevChat" */;
 			buildPhases = (
+				336732915CB2C69EAF98977B /* [CP] Check Pods Manifest.lock */,
 				072F1B481F2A546A001D6FA2 /* Sources */,
 				072F1B491F2A546A001D6FA2 /* Frameworks */,
 				072F1B4A1F2A546A001D6FA2 /* Resources */,
+				ACA1E4898F3ED15567113DA1 /* [CP] Embed Pods Frameworks */,
+				B4D320C4589D4A8EBD4FB669 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,7 +173,8 @@
 				TargetAttributes = {
 					072F1B4B1F2A546A001D6FA2 = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = CG7B5K87R2;
+						DevelopmentTeam = 4KUWRWABNG;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -125,6 +203,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				072F1B5A1F2A546A001D6FA2 /* LaunchScreen.storyboard in Resources */,
+				07FEE6E41F2AA72500202261 /* GoogleService-Info.plist in Resources */,
 				072F1B571F2A546A001D6FA2 /* Assets.xcassets in Resources */,
 				072F1B551F2A546A001D6FA2 /* Main.storyboard in Resources */,
 			);
@@ -132,13 +211,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		336732915CB2C69EAF98977B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		ACA1E4898F3ED15567113DA1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DevChat/Pods-DevChat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4D320C4589D4A8EBD4FB669 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DevChat/Pods-DevChat-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		072F1B481F2A546A001D6FA2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				072F1B521F2A546A001D6FA2 /* ViewController.swift in Sources */,
+				072F1B521F2A546A001D6FA2 /* CameraVC.swift in Sources */,
+				07FEE6E81F2ABF8800202261 /* RoundedButton.swift in Sources */,
+				07FEE6EA1F2AC31E00202261 /* LoginVC.swift in Sources */,
 				072F1B501F2A546A001D6FA2 /* AppDelegate.swift in Sources */,
+				07FEE6E61F2AB73D00202261 /* RoundTextField.swift in Sources */,
+				072F1B671F2A585F001D6FA2 /* AAPLCameraViewController.m in Sources */,
+				072F1B681F2A585F001D6FA2 /* AAPLPreviewView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,26 +393,35 @@
 		};
 		072F1B5F1F2A546A001D6FA2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AFDDBE86F3366C2DD29BBFE /* Pods-DevChat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = CG7B5K87R2;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 4KUWRWABNG;
 				INFOPLIST_FILE = DevChat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.berishaerblin.DevChat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DevChat/DevChat-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		072F1B601F2A546A001D6FA2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A90AF2DFC1BBE49BA398DCFD /* Pods-DevChat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = CG7B5K87R2;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 4KUWRWABNG;
 				INFOPLIST_FILE = DevChat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.berishaerblin.DevChat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DevChat/DevChat-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -304,6 +445,7 @@
 				072F1B601F2A546A001D6FA2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
